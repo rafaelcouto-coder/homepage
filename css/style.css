@@ -1,38 +1,67 @@
+/* reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiJwMVDvzz_8TuB-DP9xp3-xcJjrDn0JB96JbEU4zsOO3wJq4k&usqp=CAU');
-    background-size: auto 100vh;
-    font-family: Arial;
-    height: 100vh;
-  }
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-size: auto 100vh;
+  font-family: Arial;
+  height: 100vh;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .menu {
-    background-color: white;
-  }
+.menu {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
   
-  .menu ul {
-    display: flex;
-    justify-content: space-around;
-  }
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
   
-  .menu li {
-    list-style: none;
-  }
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: #22c1c3;
+  display: block;
+  padding: 10px 20px;
+}
   
-  a {
-    color: teal;
-    text-decoration: none;
-  }
+a {
+  color: teal;
+  text-decoration: none;
+}
   
-  a:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
+}
   
-  .site-subtitle,
-  .site-title {
-    color: whitesmoke;
-    text-align: center;
-  }
+.site-subtitle,
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
   
-  .site-subtitle {
-    font-style: italic;
-  }
+.site-subtitle {
+  font-style: italic;
+}
+
+.img-portfolio {
+  height: 180px;
+  width: 180px;
+}
