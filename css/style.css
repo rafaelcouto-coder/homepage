@@ -7,10 +7,33 @@
 
 body {
   background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   background-size: auto 100vh;
   font-family: Arial;
   height: 100vh;
+  font-size: 12px;
+}
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+    background-color: deeppink;
+  }
 }
 
 header {
@@ -55,6 +78,10 @@ a:hover {
 .site-title {
   color: whitesmoke;
   text-align: center;
+}
+
+.site-title {
+  font-size: 4em;
 }
   
 .site-subtitle {
