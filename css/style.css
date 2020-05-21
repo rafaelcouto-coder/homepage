@@ -65,7 +65,8 @@ header {
   color: teal;
   display: block;
   padding: 10px 20px;
-  transition: background-color, color, 0.5s;
+  transition: background-color 1s, color, 0.5s;
+  text-decoration: none;
 }
 
 .manu a:active,
@@ -75,8 +76,7 @@ header {
 }
   
 a {
-  color: teal;
-  text-decoration: none;
+  color: white;
 }
   
 a:hover {
@@ -146,15 +146,13 @@ a:hover {
 
 @media(min-width: 560px){
   .portfolio .grid {
-    grid-template-columns: 240px 240px; /* definir qntd de colunas */
-    align-content: center;
-    justify-content: center;
+    grid-template-columns: 240px 240px;
   }
 }
 
 @media(min-width: 880px){
   .portfolio .grid {
-    grid-template-columns: repeat(3, 260px); /* definir qntd de colunas */
+    grid-template-columns: repeat(3, 260px);
     align-content: center;
     justify-content: center;
     height: calc(100vh - 8em - 48px);
@@ -177,7 +175,7 @@ a:hover {
   transform: scale(1.1 );
 }
 
-.contato .icons{
+.contato .icons {
   text-align: center;
 }
 
@@ -185,10 +183,11 @@ a:hover {
   color: whitesmoke;
   font-size: 4em;
   transition: text-shadow 1s;
+  text-decoration: none;
 }
 
 .contato a:active,
-.contato a:hover {
+.contato a:hover  {
   text-decoration: none;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5)
+  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
 }
