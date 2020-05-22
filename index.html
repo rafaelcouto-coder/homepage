@@ -1,34 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+  <html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rafael Couto</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=PT+Serif&family=Roboto&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/f53230b449.js" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Couto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=PT+Serif&family=Roboto&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/f53230b449.js" crossorigin="anonymous"></script>
+  </head>
 
-<body>
-  <header>
-    <nav class="menu">
-      <ul class="container">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <div>
-      <h1 class="site-title">Rafael S Couto</h1>
-    </div>
-  </header>
+  <body>
+    <header id="inicio container">
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#inicio container">INÍCIO</a></li>
+          <li><a href="#sobre container">SOBRE</a></li>
+          <li><a href="#portfolio container">PORTFÓLIO</a></li>
+          <li><a href="#contato container">CONTATO</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-title">
+        <h2>Hello, World!</h2>
+        <h3>I'm Rafael Couto</h4>
+        <h4>Web Developer</h4>
+      </div>
+      <figure>
+        <img class="logo" src="./imagens/memecatcoffe.png" alt="developer">
+      </figure>
+
+    </header>
+
     <section class="sobre" id="sobre container">
       <h2>Sobre</h2>
 
       <figure class="avatar">
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEsSwQiBHVpJA/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=X6jVAey53LslR3VM5u7Puf-va4avbNxtTMh_feMWqzs" alt="">
-      </figure>
+        </figure>
 
       <p>
         Me chamo Rafael, tenho 19 anos e moro em São Paulo, tenho formação técnica em eletroeletrônica pelo SENAI e atualmente curso análise e desenvolvimento de sistema pelo Instituto Federal de São Paulo.
@@ -45,12 +57,12 @@
       <p>
         Iniciei meus estudos em front-end e back-end através do canal <a target="_blank" href="https://www.youtube.com/cursosemvideo">Curso em vídeo</a> onde tive contato pela primeira vez com as linguagens JavaScript, CSS e HTML. Desde então venho participando de diversos eventos como  <a target="_blank" href="https://rocketseat.com.br/"> SemanaOmniStack Rockeseat</a> e <a target="_blank" href="https://www.alura.com.br/">Imersão CSS Alura</a>. Sou muito grato a esses produtores de conteúdo que disponibilizam inteiramente grátis tanto reconhecimento! 
       </p>
-      
+        
       <p>
         Este site foi construído durante a Imersão CSS da Alura.
       </p>
-
     </section>
+
     <section class="portfolio" id="portfolio container">
       <h2>Portfólio</h2>
       <div class="grid">
@@ -58,34 +70,44 @@
           <img class="img-portfolio" src="./imagens/picture-dev.jpg" alt="developer">
           <figcaption>Developer</figcaption>
         </figure>
+
         <figure>
           <img class="img-portfolio" src="./imagens/picture-notebook.jpeg" alt="codding">
           <figcaption>Codding</figcaption>
         </figure>
+
         <figure>
           <img class="img-portfolio" src="./imagens/picture-design.jpeg" alt="Web design">
           <figcaption>Web design</figcaption>
         </figure>
+
         <figure>
           <img class="img-portfolio" src="./imagens/picture-project.jpg" alt="Project">
           <figcaption>Project</figcaption>
         </figure>
       </div>
     </section>
-    <section class="contato" id="contato container">
-      <h2>Contato</h2>
-      <div class="grid icons">
-        <a target="_blank" href="https://github.com/rafaelcouto-coder">
-          <i class="fab fa-github"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/rafael-couto-4b5360161/">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a target="_blank" href="rafaelcouto.contato@gmail.com">
-          <i class="fas fa-envelope-square"></i>
-        </a>
-      </div>
-    </section>
-</body> 
+
+    <footer>
+      <section class="contato" id="contato container">
+        <h2>Contato</h2>
+        <div class="grid icons">  
+          <a target="_blank" href="https://github.com/rafaelcouto-coder">
+            <i class="fab fa-github"></i>
+          </a>
+  
+          <a target="_blank" href="https://www.linkedin.com/in/rafael-couto-4b5360161/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+  
+          <a target="_blank" href="rafaelcouto.contato@gmail.com">
+            <i class="fas fa-envelope-square"></i>
+          </a>
+  
+        </div>
+      </section>
+    </footer>
+    
+  </body> 
 
 </html>

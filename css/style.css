@@ -6,12 +6,9 @@
 }
 
 body {
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   background-size: auto 100vh;
-  font-family: Arial;
   height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro';
   font-size: 12px;
 }
 
@@ -33,7 +30,6 @@ body {
 @media (min-width: 1200px) {
   body {
     font-size: 20px;
-    background-color: deeppink;
   }
 }
 
@@ -43,13 +39,15 @@ header {
   justify-content: center;
   align-items: center;
 }
-  
+
 .menu {
-  background-color: white;
+  background: rgb(113, 89, 193);
   position: fixed;
   width: 100vw;
   top: 0;
   z-index: 1;
+  font-size: 16px;
+
 }
   
 .menu ul {
@@ -61,18 +59,19 @@ header {
   list-style: none;
 }
 
-.menu a {
-  color: teal;
+.menu a {  
+  color: rgb(175, 158, 230);
   display: block;
-  padding: 10px 20px;
-  transition: background-color 1s, color, 0.5s;
+  padding: 18px 20px;
+  transition: color .6s;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .manu a:active,
 .menu a:hover{
-  background-color: teal;
-  color: white;
+  color: #FFFFFF;
+  text-decoration: none;
 }
   
 a {
@@ -83,20 +82,24 @@ a:hover {
   text-decoration: underline;
 }
   
-.site-subtitle,
 .site-title {
-  color: whitesmoke;
+  color: #4B4B4B;
   text-align: center;
 }
 
 .site-title {
-  font-size: 4em;
+  font-size: 1.9em;
   font-family: 'PT Serif', serif;
 }
-  
-.site-subtitle {
-  font-style: italic;
-  font-family: 'Comic Neue', cursive;
+
+.site-title h3 {
+  background-color: rgb(113, 89, 193);
+  color: rgb(175, 158, 230);
+}
+
+.sobre {
+  background: rgb(113,89,193);
+  background: linear-gradient(0deg, rgba(113,89,193,1) 0%, rgba(141,107,255,1) 48%);  
 }
 
 .sobre,
@@ -117,9 +120,16 @@ a:hover {
 .sobre h2,
 .contato h2,
 .portfolio h2 {
-  color: whitesmoke;
+  color: #4B4B4B;
   margin-bottom: 1.5em;
   font-size: 2em;
+}
+
+.logo {
+  height: 180px;
+  width: 240px;
+  object-fit: cover; /* ajustar img para melhor enquadramento */
+  padding-left: 1em;
 }
 
 .sobre p {
@@ -136,7 +146,6 @@ a:hover {
 
 .sobre .avatar img{
   border-radius: 50%;
-  
 }
 
 .portfolio .grid {
