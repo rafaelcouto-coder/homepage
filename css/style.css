@@ -67,7 +67,6 @@ header {
   font-weight: 700;
 }
 
-.manu a:active,
 .menu a:hover{
   color: #FFFFFF;
   text-decoration: none;
@@ -97,16 +96,13 @@ a:hover {
 }
 
 .sobre {
+  padding: 2em;
   background-color: rgb(113, 89, 193);
 }
 
 .portfolio {
   padding: 2em;
   min-height: 100vh; 
-}
-
-.sobre{
-  padding: 2em;
 }
 
 @media (min-width: 1200px){
