@@ -62,7 +62,7 @@ header {
 .menu a {  
   color: rgb(175, 158, 230);
   display: block;
-  padding: 18px 20px;
+  padding: 12px 20px;
   transition: color .6s;
   text-decoration: none;
   font-weight: 700;
@@ -98,12 +98,11 @@ a:hover {
 }
 
 .sobre {
-  background: rgb(113,89,193);
-  background: linear-gradient(0deg, rgba(113,89,193,1) 0%, rgba(141,107,255,1) 48%);  
+  background-color: rgb(113, 89, 193);
 }
 
 .sobre,
-.contato,
+
 .portfolio {
   padding: 2em;
   min-height: 100vh; 
@@ -133,10 +132,12 @@ a:hover {
 }
 
 .sobre p {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: 1.4em;
   text-indent: 1.4em;
   text-align: justify;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
 }
 
 .sobre .avatar {
@@ -145,7 +146,7 @@ a:hover {
 }
 
 .sobre .avatar img{
-  border-radius: 50%;
+  border-radius: 2%;
 }
 
 .portfolio .grid {
@@ -176,7 +177,7 @@ a:hover {
   height: 180px;
   width: 240px;
   object-fit: cover; /* ajustar img para melhor enquadramento */
-  border-radius: 20px; 
+  border-radius: 10px; 
   transition: transform 500ms;
 }
 
@@ -186,17 +187,28 @@ a:hover {
 
 .contato .icons {
   text-align: center;
+  padding: 15px;
+  
+  box-sizing: border-box;
+  background-color: rgb(113, 89, 193);
 }
 
 .contato a {
   color: whitesmoke;
-  font-size: 4em;
+  font-size: 2.5em;
   transition: text-shadow 1s;
   text-decoration: none;
+  margin-right: 1em;
 }
 
 .contato a:active,
 .contato a:hover  {
   text-decoration: none;
   text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: #666666;
+  text-align: center;
 }
