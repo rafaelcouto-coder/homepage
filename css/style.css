@@ -22,14 +22,7 @@ body {
 /* breakpoint */
 @media (min-width: 600px) {
   body {
-    font-size: 18px;
-  }
-}
-
-/* breakpoint */
-@media (min-width: 1200px) {
-  body {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -178,6 +171,7 @@ a:hover {
   object-fit: cover; /* ajustar img para melhor enquadramento */
   border-radius: 10px; 
   transition: transform 500ms;
+  border: 0.1px solid rgb(184, 184, 184);
 }
 
 .img-portfolio:hover {
